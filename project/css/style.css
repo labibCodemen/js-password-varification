@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .row {
+        @apply flex flex-wrap w-row -mx-4;
+    }
+}
+
+.back-img{
+    background-image: url('../images/pic3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
